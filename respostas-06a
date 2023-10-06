@@ -1,0 +1,69 @@
+Pergunta: Como selecionar todas as colunas de uma tabela chamada "clientes"?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite "SELECT * FROM clientes;"
+5-Aperte em executar
+
+Pergunta:Como selecionar apenas os nomes e as idades dos clientes da tabela "clientes"?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite "SELECT nome, idade FROM clientes;"
+5-Aperte em executar
+
+Pergunta: Como selecionar todos os registros da tabela "produtos" com preço superior a 50?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite " SELECT * FROM produtos WHERE preco > 50;"
+5-Aperte em executar
+
+Pergunta: Como selecionar os registros da tabela "vendas" que ocorreram no mês de janeiro de 2023?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite "SELECT * FROM vendas WHERE data_venda >= '2023-01-01' AND data_venda <= '2023-01-31';"
+5-Aperte em executar
+
+Pergunta: Como contar quantos registros existem na tabela "pedidos"?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite " SELECT COUNT(*) FROM pedidos;"
+5-Aperte em executar
+
+Pergunta: Como selecionar os registros da tabela "funcionários" que possuem o cargo de "gerente" e foram contratados no ano de 2022?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite "SELECT * FROM funcionários WHERE cargo = 'gerente' AND YEAR(data_contratação) = 2022;"
+5-Aperte em executar
+
+Pergunta: Como selecionar os registros da tabela "estoque" ordenados em ordem decrescente de quantidade?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite "SELECT * FROM estoque ORDER BY quantidade DESC;"
+5-Aperte em executar
+
+Pergunta: Como atualizar o campo "preço" da tabela "produtos" para o valor 10, onde o campo "categoria" seja igual a "alimentos"?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite "UPDATE produtos SET preço = 10 WHERE categoria = 'alimentos';"
+5-Aperte em executar
+
+Pergunta: Como inserir um novo registro na tabela "clientes" com nome "João" e idade 30?
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite "INSERT INTO clientes (nome, idade) VALUES ('João', 30);"
+5-Aperte em executar
+
+Pergunta: Como excluir todos os registros da tabela "pedidos" onde o campo "status" seja igual a "cancelado"
+R:1-Abra o banco de dados em que a tabela está;
+2-Abra a tabela;
+3-No menu superior clique em SQL;
+4-Digite "DELETE FROM pedidos WHERE status = 'cancelado';"
+5-Aperte em executar
